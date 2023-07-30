@@ -12,5 +12,5 @@
             "dest": "django_tutorial/wsgi.py"
         }
     ],
-    "outputDirectory": "public/static"
+    "outputDirectory": "public"
 }
