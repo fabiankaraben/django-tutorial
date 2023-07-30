@@ -15,6 +15,5 @@
             "src": "/(.*)",
             "dest": "django_tutorial/wsgi.py"
         }
-    ],
-    "outputDirectory": "staticfiles"
+    ]
 }
