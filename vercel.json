@@ -8,10 +8,6 @@
     ],
     "routes": [
         {
-            "src": "/staticfiles/(.*)",
-            "dest": "/static/$1"
-        },
-        {
             "src": "/(.*)",
             "dest": "django_tutorial/wsgi.py"
         }
