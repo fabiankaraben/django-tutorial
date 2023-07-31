@@ -1,5 +1,14 @@
 {
     "version": 2,
+    "builds": [
+        {
+            "src": "django_tutorial/wsgi.py",
+            "use": "@vercel/python"
+        },
+        {
+            "use": "@vercel/static-build"
+        }
+    ],
     "routes": [
         {
             "src": "/static/(.*)",
